@@ -74,7 +74,6 @@ export default Produtos =>  {
         });
         abrirCerrarModalEditar();
         peticionGet();
-  
       }).catch(error=>{
         console.log(error);
       })
